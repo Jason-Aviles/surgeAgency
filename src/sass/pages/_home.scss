@@ -9,7 +9,7 @@
 
   @include respond(phone) {
     margin-top: -20vh;
- 
+    padding: 35rem 0;
   }
 
 }
@@ -130,7 +130,7 @@
   &__list {
     font-size: 1.6rem;
     @include respond(phone) {
-      font-size: 2rem;
+      font-size: 3rem;
      line-height: 5rem;
     }
   }
