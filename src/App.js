@@ -81,7 +81,7 @@ function App() {
             </div>
             <div className="col-1-of-3">
               <div className="card">
-                <div className="u-margin-bottom-small">
+                <div className="u-margin-bottom-smaller">
                   {" "}
                   <img className="card__img" src={Card2} alt="img" />
                 </div>
@@ -95,12 +95,9 @@ function App() {
                         Increase sales by showing true dynamics of{" "}
                       </span>
                       <span className="u-display-block">
-                        your website. Build your online store’s trust
+                        your website. Build your online store’s trust.
                       </span>
-                      <span className="u-display-block">
-                        using Social Proof & Urgency for your{" "}
-                      </span>
-                      <span className="u-display-block">business.</span>
+                     
                     </span>
                   </h3>
                 </div>
@@ -109,8 +106,8 @@ function App() {
 
             <div className="col-1-of-3">
               {" "}
-              <div className="card">
-                <div className="u-margin-bottom-small">
+              <div className="card u-height-auto">
+                <div className="u-margin-bottom-smaller">
                   {" "}
                   <img className="card__img" src={Card3} alt="img" />
                 </div>
@@ -151,7 +148,7 @@ function App() {
           <div className="u-center-text u-margin-bottom-big">
             <div className="row">
               <div className="col-1-of-2">
-                <div className="u-margin-bottom-small">
+                <div className="u-margin-bottom-smaller">
                   <h2 className="card__heading--main">Who we are</h2>
                   <p className="heading-tertiary__paragraph">
                     <span className="u-display-block">
@@ -296,7 +293,7 @@ function App() {
        
 
             <div className="col-1-of-3">
-              <div className="card">
+              <div className="card u-height-auto">
 
              
                 <div className="u-margin-bottom-small"> </div>
@@ -342,7 +339,7 @@ function App() {
               </div>
             </div>
             <div className="col-1-of-3">
-              <div className="card  card--white">
+              <div className="card u-height-auto  card--white">
                 <div className="u-margin-bottom-small"> </div>
 
                 <div className="u-center-text">
@@ -388,7 +385,7 @@ function App() {
 
             <div className="col-1-of-3">
               {" "}
-              <div className="card">
+              <div className="card u-height-auto">
                 <div className="u-margin-bottom-small"> </div>
 
                 <div className="u-center-text">
