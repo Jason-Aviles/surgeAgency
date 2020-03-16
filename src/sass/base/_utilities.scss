@@ -1,0 +1,120 @@
+.u-center-text {
+  text-align: center;
+}
+
+.u-left-text {
+  text-align: left;
+}
+
+.u-display-block {
+  display: block;
+}
+
+.u-line-height {
+  line-height: 7rem;
+}
+
+.u-margin-bottom-big {
+  margin-bottom: 10rem;
+}
+
+.u-margin-bottom-medium {
+  margin-bottom: 8rem;
+}
+.u-margin-bottom-smaller {
+  margin-bottom: 2rem;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 4rem;
+}
+.u-margin-top-small {
+  margin-top: 1rem;
+}
+.u-border-bottom {
+  border-bottom: 1px rgba($color-primary, 1) solid;
+  padding: 15px;
+  opacity: 0.8;
+}
+
+.u-align {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.u-width {
+  width: 0 !important;
+  height: 0 !important;
+  display: none;
+}
+
+.u-height {
+  height: 60rem !important;
+}
+
+.u-height-2 {
+  height: 17rem !important;
+}
+
+#navShow {
+
+width: 0;
+opacity: 0;
+height: 0 ;
+display: none;
+
+@include respond(tab-land) {
+  width: 0;
+    opacity: 0;
+    height: 0 ;
+    display: none;
+}
+
+@include respond(tab-port) {
+  display: block;
+  opacity: 1;
+  height: 13rem;
+  width: 100%;
+}
+
+
+  @include respond(phone) {
+    display: block;
+    opacity: 1;
+    height: 13rem;
+    width: 100%;
+  }
+}
+
+#navShow2 {
+        
+  opacity: 1;
+  height: 10rem ;
+  width: 100%;
+ 
+  
+  @include respond(tab-land) {
+  
+
+      
+      opacity: 1;
+      height: 13rem !important;
+      width: 100%;
+  }
+  
+  @include respond(tab-port) {
+    width: 0;
+      opacity: 0;
+      height: 0 !important;
+  }
+
+
+    @include respond(phone) {
+       width: 0;
+      opacity: 0;
+      height: 0 !important;
+    
+    }
+}

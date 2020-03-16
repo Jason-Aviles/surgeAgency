@@ -1,0 +1,28 @@
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.15;
+  overflow: hidden;
+
+  &__content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &__img {
+    // transition: all 2s;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    &--image {
+    
+      width: 100%;
+      position: relative;
+      animation: moveUpnDown 5s ease-in-out infinite;
+    }
+  }
+}

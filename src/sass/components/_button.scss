@@ -1,0 +1,120 @@
+.btn {
+  font-weight: 500;
+  border: none;
+  &,&:link,
+  &:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    display: inline-block;
+    clip-path: circle(50% at 50% 50%);
+    border-radius: 10rem;
+    transition: all 0.2s;
+    position: relative;
+    font-size: 1.4rem;
+
+    @include respond(phone) {
+      font-size: 2rem;
+      padding: 1.5rem 5rem;
+   
+    }
+  }
+
+  &:hover {
+    transform: translateY(-3px);
+    background-image:  linear-gradient(to right bottom ,rgba($color-primary-light,.8),rgba($color-primary,.8));
+    box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+    &::after {
+      background-color: gold;
+      opacity: 0;
+    }
+  }
+
+  &:active {
+    transform: translate(-1px);
+    box-shadow: 0 5px 10px rgba($color-black, 0.2);
+  }
+
+  &::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.4s;
+  }
+
+  &--white {
+    background-color: $color-white;
+    color: #777;
+
+    &::after {
+      background-color: $color-white;
+      
+    }
+  }
+
+  &--dark {
+    background-image:  linear-gradient(to right bottom ,rgba($color-white,.8),rgba($color-black,.8));
+   
+color:$color-black;
+    &::after {
+      color:$color-black;
+      background-color:$color-primary-dark;
+      
+    }
+  }
+}
+
+
+
+.btn2 {
+  font-weight: 500;
+  border: none;
+  &,&:link,
+  &:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1rem 4rem;
+    display: inline-block;
+    clip-path: circle(50% at 50% 50%);
+    border-radius: 10rem;
+    transition: all 0.2s;
+    position: relative;
+    font-size: 1.5rem;
+     
+  @include respond(phone) {
+    font-size: 2.5rem;
+  }
+  }
+
+  &:hover {
+   
+    background-image:  linear-gradient(to right bottom ,rgba($color-primary-light,.8),rgba($color-primary,.8));
+    box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+    
+  }
+
+  &:active {
+    transform: translate(-1px);
+    box-shadow: 0 5px 10px rgba($color-black, 0.2);
+  }
+
+
+
+  &--white {
+    background-color: $color-primary;
+    color: #777;
+
+    &::after {
+      background-color: $color-white;
+      
+    }
+  }
+
+
+}
