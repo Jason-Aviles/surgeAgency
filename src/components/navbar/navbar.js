@@ -34,7 +34,7 @@ class navbar extends Component {
             <div className="u-margin-bottom-big">
               <div className="col-1-of-4">
                 <div className="header__logo-box " >
-                  <img className="header__logo "  src={Img} alt="no pic" />{" "}
+                  <img className="header__logo--2 "  src={Img} alt="no pic" />{" "}
                   <img className="header__logo--menu"  src={menu} alt="no pic"     onClick={()=> this.setState({menuShow:!this.state.menuShow})}/>
                 </div>
               </div>
