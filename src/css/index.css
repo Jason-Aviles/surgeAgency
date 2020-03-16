@@ -311,7 +311,7 @@ body {
   @media (max-width: 75em) {
     #navShow2 {
       opacity: 1;
-      height: 13rem !important;
+      height: 9rem !important;
       width: 100%; } }
   @media (max-width: 57.25em) {
     #navShow2 {
@@ -417,7 +417,7 @@ body {
       line-height: 3rem; } }
   @media (max-width: 37.5em) {
     .card {
-      height: 80rem; } }
+      height: 85rem; } }
   .card--white {
     background-image: linear-gradient(to right bottom, rgba(244, 238, 255, 0.8), rgba(66, 72, 116, 0.8)); }
   .card__img {
@@ -454,6 +454,7 @@ body {
             margin-bottom: 2rem; } }
     .card__heading--sub {
       color: black;
+      line-height: 3rem;
       font-weight: 400;
       font-size: 1.5rem; }
       @media (max-width: 57.25em) {
@@ -467,6 +468,7 @@ body {
         color: black;
         font-size: 1.8rem;
         font-weight: 400;
+        margin-top: 2rem;
         font-style: italic; }
         @media (max-width: 37.5em) {
           .card__heading--sub--2 {
@@ -496,6 +498,7 @@ body {
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden; }
     .bg-video__img--image {
+      padding: 2rem;
       width: 100%;
       position: relative;
       animation: moveUpnDown 5s ease-in-out infinite; }
@@ -576,13 +579,13 @@ body {
   position: relative; }
   @media (max-width: 57.25em) {
     .header {
-      height: 50vh; } }
+      height: 80vh; } }
   @media (max-width: 37.5em) {
     .header {
       margin-top: 7.5rem;
-      margin-bottom: 8rem;
-      padding-bottom: 20rem;
-      height: 70vh; } }
+      margin-bottom: 4rem;
+      padding-bottom: 39rem;
+      height: 85vh; } }
   .header__logo-box {
     position: absolute;
     top: -4rem;
@@ -604,10 +607,9 @@ body {
       height: 13.5rem; }
       @media (max-width: 57.25em) {
         .header__logo--2 {
-          width: 100%;
+          width: 50%;
           height: 13rem;
           /* margin-bottom: 3rem; */
-          cursor: pointer;
           position: relative;
           /* padding: 0rem; */
           margin-top: 1.5em;
@@ -633,12 +635,12 @@ body {
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
     @media (max-width: 57.25em) {
       .header__logo {
-        height: 25rem;
-        width: 45%; } }
+        height: 18rem;
+        width: 70%; } }
     @media (max-width: 37.5em) {
       .header__logo {
         position: relative;
-        top: -15px;
+        top: 5px;
         width: 50%; } }
   .header__text-box {
     position: absolute;
@@ -697,11 +699,12 @@ body {
   margin-top: -20vh; }
   @media (max-width: 75em) {
     .section-about {
-      margin-top: -15vh; } }
+      margin-top: -15vh;
+      padding: 15rem 0 25rem; } }
   @media (max-width: 37.5em) {
     .section-about {
-      margin-top: -20vh;
-      padding: 20rem 0; } }
+      margin-top: -23rem;
+      padding: 25rem 0; } }
 
 .section-info {
   background-image: linear-gradient(to right bottom, rgba(220, 214, 247, 0.8), rgba(66, 72, 116, 0.8));
@@ -715,11 +718,11 @@ body {
       padding: 15rem 0; } }
   @media (max-width: 57.25em) {
     .section-info {
-      margin-top: -20vh;
+      margin-top: -30vh;
       padding: 15rem 0; } }
   @media (max-width: 37.5em) {
     .section-info {
-      margin-top: -20vh;
+      margin-top: -13.5rem;
       padding: 20rem 0; } }
 
 .Main-Img-text {
@@ -732,12 +735,12 @@ body {
       margin-top: -15vh; } }
   @media (max-width: 57.25em) {
     .Main-Img-text {
-      margin-top: -15vh;
+      margin-top: -30vh;
       padding: 20rem 0 10rem 0; } }
   @media (max-width: 37.5em) {
     .Main-Img-text {
-      margin-top: -15.5vh;
-      padding: 23rem 0; } }
+      margin-top: -17.5vh;
+      padding: 25rem 0; } }
   .Main-Img-text__card {
     border: 1px solid rgba(0, 0, 0, 0.8);
     background-color: rgba(210, 210, 245, 0.555); }
@@ -751,7 +754,7 @@ body {
       transform: translate(-1px);
       box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
   .Main-Img-text__img {
-    height: 63rem;
+    height: 70rem;
     background-image: linear-gradient(to right bottom, rgba(220, 214, 247, 0.8), rgba(66, 72, 116, 0.8)), url("../img/laptop.jpg");
     background-size: cover;
     background-position: left;
@@ -819,7 +822,8 @@ body {
   background-image: linear-gradient(to right bottom, rgba(66, 72, 116, 0.8), rgba(0, 0, 0, 0.8));
   padding: 15rem 0;
   clip-path: polygon(30% 6%, 70% 6%, 100% 0, 100% 70%, 100% 100%, 0 100%, 0% 70%, 0 0);
-  margin-top: -15vh; }
+  margin-top: -15vh;
+  background-color: #afa9af; }
   @media (max-width: 75em) {
     .footer-section {
       margin-top: -35vh; } }
@@ -830,4 +834,4 @@ body {
   @media (max-width: 37.5em) {
     .footer-section {
       margin-top: -15vh;
-      padding: 6rem 0; } }
+      padding: 12rem 0; } }

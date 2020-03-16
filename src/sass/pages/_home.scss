@@ -4,12 +4,12 @@
   margin-top: -20vh;
   @include respond(tab-land) {
     margin-top: -15vh;
-
+    padding: 15rem 0 25rem;
   }
  
   @include respond(phone) {
-    margin-top: -20vh;
-    padding: 20rem 0;
+    margin-top: -23rem;
+    padding: 25rem 0;
   }
 
 }
@@ -40,12 +40,12 @@
     padding: 15rem 0;
   }
   @include respond(tab-port) {
-    margin-top: -20vh;
+    margin-top: -30vh;
     padding: 15rem 0;
   }
   
   @include respond(phone) {
-    margin-top: -20vh;
+    margin-top: -13.5rem;
     padding: 20rem 0;
   }
 }
@@ -62,13 +62,13 @@
 
   }
   @include respond(tab-port) {
-    margin-top: -15vh;
+    margin-top: -30vh;
     padding: 20rem 0 10rem 0;
   }
 
   @include respond(phone) {
-    margin-top: -15.5vh;
-    padding: 23rem 0;
+    margin-top: -17.5vh;
+    padding: 25rem 0;
   }
   &__card {
     border: 1px solid rgba($color-black, 0.8);
@@ -87,7 +87,7 @@
     }
   }
   &__img {
-    height: 63rem;
+    height: 70rem;
     @include respond(phone) {
       height: 60rem;
     }
@@ -196,6 +196,7 @@
     0 0
   );
   margin-top: -15vh;
+  background-color: #afa9af;
   @include respond(tab-land) {
     margin-top: -35vh;
 
@@ -210,6 +211,7 @@
   
   @include respond(phone) {
     margin-top: -15vh;
-    padding: 6rem 0;
+    padding: 12rem 0;
+  
   }
 }

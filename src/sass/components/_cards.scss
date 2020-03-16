@@ -12,7 +12,7 @@
     line-height: 3rem;
   }
   @include respond(phone) {
-    height: 80rem;
+    height: 85rem;
    
   }
 
@@ -59,6 +59,7 @@
         color: $color-black;
         font-size: 5rem;
         font-weight: 500;
+        
         @include respond(tab-port) {
           line-height: 4rem;
           font-size: 6rem;
@@ -74,7 +75,7 @@ margin-bottom: 2rem;
     }
     &--sub {
       color: $color-black;
-
+      line-height: 3rem;
       font-weight: 400;
       font-size: 1.5rem;
       @include respond(tab-port) {
@@ -89,6 +90,7 @@ margin-bottom: 2rem;
         color: $color-black;
         font-size: 1.8rem;
         font-weight: 400;
+        margin-top: 2rem;
         font-style: italic;
         @include respond(phone) {
       
