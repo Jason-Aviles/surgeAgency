@@ -29,11 +29,14 @@
   }
   &--clear {
 
-    background-color:rgba(0, 0, 0, 0.075);
+    background-color:transparent;
 
     @include respond(tab-port) {
       background-color: $color-primary-dark;
     }
+    // @include respond(tab-land) {
+    //   background-color:transparent;
+    // }
   }
 
   width: 100%;

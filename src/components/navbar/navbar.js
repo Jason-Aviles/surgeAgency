@@ -41,7 +41,7 @@ class navbar extends Component {
             </div>
 
 
-            <div style={{background:"red !important"}} className={this.state.menuShow ? "u-width": ""}>
+            <div className={this.state.menuShow ? "u-width": ""}>
             <div className="col-1-of-4">
               <a
                 href="#home"
@@ -99,7 +99,7 @@ class navbar extends Component {
 
         <nav  id="navShow2"
           className={
-            this.state.menuShow
+            !this.state.headerShow
               ? "center nav nav--clear "
               : "center nav nav--black  " 
           
@@ -127,7 +127,7 @@ class navbar extends Component {
               <a
                 href="#price"
                 className={
-                  this.state.headerShow
+                 this.state.headerShow
                     ? "nav__links nav__links--black"
                     : "nav__links nav__links--clear"
                 }
