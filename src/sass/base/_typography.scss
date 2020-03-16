@@ -106,12 +106,17 @@ body {
   }
   &__svg {
     margin-right: 1rem;
- 
+ padding: 2rem;
     width:25%;
     padding: 0.5rem;
     border-radius: 10px;
     transition: all 2s;
 cursor: pointer;
+
+ 
+@include respond(phone) {
+  width:20%;
+}
     &:hover {
       transform: translateY(-3px);
       background-image:  linear-gradient(to right bottom ,rgba($color-primary-light,.8),rgba($color-primary,.8));
