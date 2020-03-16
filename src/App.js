@@ -287,7 +287,7 @@ function App() {
         </section>
 
 <span id="price" className="heading-secondary--main u-center-text u-border">
-                      Over Services
+                      Our Services
                     </span>
         <section  className="section-Price">
 
