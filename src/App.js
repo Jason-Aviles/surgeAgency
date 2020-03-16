@@ -286,10 +286,19 @@ function App() {
           </div>
         </section>
 
-        <section id="price" className="section-Price">
+<span id="price" className="heading-secondary--main u-center-text u-border">
+                      Over Services
+                    </span>
+        <section  className="section-Price">
+
+        
           <div className="row">
+       
+
             <div className="col-1-of-3">
               <div className="card">
+
+             
                 <div className="u-margin-bottom-small"> </div>
 
                 <div className="u-center-text">

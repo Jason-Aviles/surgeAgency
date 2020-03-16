@@ -268,6 +268,9 @@ body {
 .u-height-2 {
   height: 17rem !important; }
 
+.u-border {
+  border: 1px solid #ebebeb; }
+
 #navShow {
   width: 0;
   opacity: 0;
@@ -530,7 +533,9 @@ body {
         /* margin-top: 52rem; */
         position: relative;
         top: 2rem;
-        left: 0; } }
+        left: 0;
+        font-size: 3rem;
+        border: 1px solid; } }
     .nav__links:active, .nav__links:hover {
       color: #fff;
       background: #a6b1e1;
@@ -555,7 +560,15 @@ body {
     .header__logo--menu {
       width: 25%;
       height: 23rem;
-      margin-bottom: 3rem; }
+      margin-bottom: 3rem;
+      cursor: pointer; }
+      .header__logo--menu:hover {
+        transform: translateY(-3px);
+        background-color: transparent;
+        border-radius: 10rem; }
+      .header__logo--menu:active {
+        transform: translate(-1px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
     @media (max-width: 57.25em) {
       .header__logo {
         height: 25rem;

@@ -38,7 +38,19 @@
   height: 23rem;
   margin-bottom: 3rem;
 
- 
+  cursor: pointer;
+  &:hover {
+    transform: translateY(-3px);
+    background-color:  transparent;
+    border-radius: 10rem;
+
+  
+    }
+
+    &:active {
+      transform: translate(-1px);
+      box-shadow: 0 5px 10px rgba($color-black, 0.2);
+    }
 
 }
     @include respond(tab-port) {
