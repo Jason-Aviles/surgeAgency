@@ -38,11 +38,11 @@ function App() {
                 Why does your business need{" "}
                 <span className="heading-secondary--main u-margin-bottom-small">
                   {" "}
-                  AgencyCo?
+                  Surge Agency?
                 </span>
               </span>
               <span id="info" className="heading-secondary--sub">
-                Following reasons show advantages of adding AgencyCo to your
+                Following reasons show advantages of adding Surge Agency to your
                 lead
                 <span  className="heading-secondary--sub">
                   pages, demos and checkouts
